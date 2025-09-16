@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="shortcut icon" href="./favicon.ico" type="image/x-icon" />
+		<title>Delivery de comida e Mercado - iFood</title>
+
+		<link rel="stylesheet" href="./css/reset.css" />
+		<link rel="stylesheet" href="./css/colors.css" />
+		<link rel="stylesheet" href="./css/general.css" />
+		<link rel="stylesheet" href="./css/header.css" />
+		<link rel="stylesheet" href="./css/search.css" />
+		<link rel="stylesheet" href="./css/options.css" />
+		<link rel="stylesheet" href="./css/food-links.css" />
+		<link rel="stylesheet" href="./css/food-lover.css" />
+		<link rel="stylesheet" href="./css/footer.css" />
+
+		<link rel="stylesheet" href="./assets/fonts/SulSans/font-sulsans.css" />
+
+		<style>
+			.social-icons {
+				display: flex;
+				gap: 15px;
+				align-items: center;
+			}
+			.social-icons img {
+				width: 30px;
+				height: 30px;
+				object-fit: contain;
+				cursor: pointer;
+				transition: transform 0.2s ease, opacity 0.2s ease;
+			}
+			.social-icons img:hover {
+				transform: scale(1.2);
+				opacity: 0.8;
+			}
+		</style>
+	</head>
+	<body>
+		<header class="header-menu">
+			<nav class="container">
+				<ul>
+					<li><img src="./assets/img/logo.svg" alt="Logo IFood" /></li>
+					<li><a> Entregador </a></li>
+					<li><a> Restaurante e Mercado </a></li>
+					<li><a> Carreiras </a></li>
+					<li><a> iFood Empresas </a></li>
+				</ul>
+				<ul>
+					<li><a> Criar conta </a></li>
+					<li><a> Entrar </a></li>
+				</ul>
+			</nav>
+		</header>
+		<main>
+			<section class="search">
+				<div class="title-search">
+					<h1>Tudo pra facilitar seu dia a dia</h1>
+					<p>O que você precisa está aqui. Peça e receba onde estiver.</p>
+				</div>
+				<div>
+					<div class="search-input">
+						<img src="./assets/icons/location.svg" alt="Location Icon" />
+						<input type="text" placeholder="Endereço de entrega e número" disabled />
+					</div>
+					<button class="button-search" disabled>Buscar</button>
+				</div>
+			</section>
+
+            <section class="options">
+				<div class="container-options">
+					<div class="cards-options">
+						<a
+							href=""
+							class="card-option"
+						>
+							<h2>Restaurante</h2>
+							<button>Ver opções &gt;</button>
+							<img
+								src="https://static-images.ifood.com.br/image/upload/f_auto/webapp/landingV2/restaurant.png"
+								alt="Imagem de um Hamburguer"
+							/>
+						</a>
+						<a href="" class="card-option">
+							<h2>Mercado</h2>
+							<button>Buscar lojas &gt;</button>
+							<img
+								src="https://static-images.ifood.com.br/image/upload/f_auto/webapp/landingV2/market.png"
+								alt="Imagem de um carrinho de compras com legumes dentro"
+							/>
+						</a>
+					</div>
+					<div class="mini-cards-options">
+						<a href="" class="mini-card">
+							<figure>
+								<img
+									src="https://static-images.ifood.com.br/image/upload/f_auto/webapp/landingV2/drinks.png"
+									alt=""
+								/>
+							</figure>
+							<span>Bebidas</span>
+						</a>
+						<a href="" class="mini-card">
+							<figure>
+								<img
+									src="https://static-images.ifood.com.br/image/upload/f_auto/webapp/landingV2/pharmacy.png"
+									alt=""
+								/>
+							</figure>
+							<span>Farmácia</span>
+						</a>
+						<a href="" class="mini-card">
+							<figure>
+								<img
+									src="https://static-images.ifood.com.br/image/upload/f_auto/webapp/landingV2/convenience.png"
+									alt=""
+								/>
+							</figure>
+							<span>Conveniência</span>
+						</a>
+						<a href="" class="mini-card">
+							<figure>
+								<img
+									src="https://static-images.ifood.com.br/image/upload/f_auto/webapp/landingV2/petshop.png"
+									alt=""
+								/>
+							</figure>
+							<span>Pet shop</span>
+						</a>
+					</div>
+				</div>
+			</section>
+
+		</main>
+		<footer class="container">
+			<section class="cities">
+				<div>
+					<h2>Explore por cidades</h2>
+					<a>Veja mais</a>
+				</div>
+				<ul>
+					<li><a>Belo Horizonte</a></li>
+					<li><a>Brasília</a></li>
+					<li><a>Campinas</a></li>
+					<li><a>Curitiba</a></li>
+					<li><a>Goiânia</a></li>
+					<li><a>Guarulhos</a></li>
+					<li><a>João Pessoa</a></li>
+					<li><a>Natal</a></li>
+					<li><a>Niterói</a></li>
+					<li><a>Porto Alegre</a></li>
+					<li><a>Ribeirão Preto</a></li>
+					<li><a>Rio de Janeiro</a></li>
+					<li><a>Salvador</a></li>
+					<li><a>Santo André</a></li>
+					<li><a>Santos</a></li>
+					<li><a>São Bernardo do Campo</a></li>
+					<li><a>São Caetano do Sul</a></li>
+					<li><a>São Paulo</a></li>
+				</ul>
+			</section>
+			<section class="footer-about">
+				<ul>
+					<li><b>iFood</b></li>
+					<li><a>Site Institucional</a></li>
+					<li><a>Fale conosco</a></li>
+					<li><a>Carreiras</a></li>
+					<li><a>iFood Colômbia</a></li>
+				</ul>
+				<ul>
+					<li><b>Descubra</b></li>
+					<li><a>Cadastre seu Restaurante ou Mercado</a></li>
+					<li><a>iFood Shop</a></li>
+					<li><a>iFood Empresas</a></li>
+					<li><a>Blog iFood Empresas</a></li>
+				</ul>
+				<ul>
+					<li><b>Social</b></li>
+					<li>
+						<ul class="social-icons">
+							<li><img src="./assets/icons/facebook.svg" alt="Facebook" /></li>
+							<li><img src="./assets/icons/instagram.svg" alt="Instagram" /></li>
+							<li><img src="./assets/icons/twitter.svg" alt="Twitter" /></li>
+							<li><img src="./assets/icons/youtube.svg" alt="Youtube" /></li>
+						</ul>
+					</li>
+				</ul>
+			</section>
+			<section class="food-copy">
+				<ul>
+					<li>
+						<img src="./assets/img/logo.svg" alt="Logo marca iFood" />
+					</li>
+					<li>
+						<small>
+							Rua Paula Gomes, 270 - Curitiba (PR)
+						</small>
+					</li>
+					<li><a>Termo e condições de uso</a></li>
+					<li><a>Código de conduta</a></li>
+					<li><a>Privacidade</a></li>
+					<li><a>Dicas de segurança</a></li>
+				</ul>
+			</section>
+		</footer>
+	</body>
+</html>
